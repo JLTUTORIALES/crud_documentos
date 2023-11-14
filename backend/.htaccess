@@ -1,0 +1,9 @@
+ErrorDocument 404 /index.php 
+
+<Files .env>
+    Order allow,deny
+    Deny From All
+</Files>
+
+RewriteEngine on
+RewriteRule ^cruce_documentos/(.*)$ cruce_documentos/index.php?route=$1 [L,QSA]

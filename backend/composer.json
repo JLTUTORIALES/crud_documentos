@@ -1,0 +1,19 @@
+{
+    "name": "luisjdev/crud_documentos",
+    "autoload": {
+        "psr-4": {
+            "backend\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jose Luis Ortiz",
+            "email": "desarrollador@luisjdev.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^6.9",
+        "vlucas/phpdotenv": "^5.5",
+        "respect/validation": "^2.2"
+    }
+}
